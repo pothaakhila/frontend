@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Freeman&family=Jacquard+24&family=Outfit:wght@100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Century gothic;
+    overflow-x:hidden;
+    
+
+    background-image: url('https://zrtechsolutions.com/demo/html/technoit/assets/images/hero-bg.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.right-center-content {
+    position: absolute;
+    right: 220px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 22px;
+    /* Replace 'your-image-url.jpg' with the actual image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 10px;
+    color: white;
+
+    /* Ensure the text is visible over the image */
+    .span {
+        color: rgb(47, 99, 211);
+        position: relative;
+        right: 0px;
+        top: 1px;
+    }
+
+    .ul {
+        position: relative;
+        right: 268px;
+        top: 62px;
+
+
+    }
+
+    .uls {
+        position: relative;
+        right: 217px;
+        top: 62px;
+
+
+    }
+
+    .d {
+        position: relative;
+        right: 0px;
+        top: 45px;
+        color: rgb(47, 99, 211);
+    }
+
+    .para {
+
+        position: relative;
+        right: 0px;
+        top: 20px;
+        font-size: 16px;
+    }
+
+
+
+}
+
+#darkmode {
+    position: relative;
+    left: 852px;
+    bottom: 39px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    display: grid;
+    place-items: center;
+    width: 39px;
+    height: 39px;
+
+
+}
+
+
+
+ul {
+    float: right;
+    list-style-type: none;
+
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    transition: 0.6s ease;
+}
+
+.head {
+    display: flex;
+    text-align: left;
+}
+
+.nav-item1 {
+
+    font-size: medium;
+    color: whitesmoke;
+    margin-bottom: 50%;
+    margin-right: 40px;
+    padding: 25px;
+
+}
+
+.nav-item {
+    padding-left: 50px;
+
+}
+
+.nav-item2 {
+    padding-left: 25px;
+}
+
+.nav-item3 {
+    padding-left: 25px;
+}
+
+.nav-item4 {
+    padding-left: 25px;
+}
+
+.nav-item5 {
+    padding-left: 25px;
+}
+
+.nav-item6 {
+    padding-left: 25px;
+
+}
+
+.nav-item6 {
+
+    padding-left: 25px;
+
+}
+
+
+.nav-item7 {
+    padding-left: 25px;
+}
+
+.nav-link {
+    padding: 0px;
+    font-family: "bold", sans-serif;
+    font-weight: bold !important;
+    font-style: normal;
+
+}
+
+.nav-link .top {
+    position: relative;
+    bottom: 2.5px;
+
+}
+
+.logo .sy {
+    float: left;
+    width: 50px;
+    height: 30px;
+    margin-left: 190px;
+    margin-top: 40px;
+    color: #4c6cc5;
+    font-weight: bold !important;
+
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    margin-left: 75px;
+    margin-top: 20px;
+
+
+
+}
+
+.a .head {
+    margin-left: 300px;
+    margin-bottom: 330px;
+}
+
+.main {
+    display: flex;
+
+
+}
+
+.nav-item .btn-primary {
+    height: 41px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 107px !important;
+    width: 106px;
+
+}
+.imageCard{
+    max-width:100%;
+   height: 70%;
+    background:;
+    padding:0px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-origin:content-box;
+    background-attachment: fixed;
+
+}
+
+
+
+.imageCards{
+    position: relative;
+    bottom: 50px;
+    max-width:100%;
+    height:70%;
+    background-color: #fff;
+    padding:30px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-origin:content-box;
+    background-attachment: fixed;
+
+}
+
+
+
+.imageCards h1{
+    text-align:center;
+    margin-top:20px;
+    text-transform: uppercase;
+    color:brown;
+    
+}
+
+
+
+
+
+
+
+
+
+   /*------*/
+   
+   #about{
+    background-image:url("");
+    height:500px;
+   }
+  
+   #about img{
+    height:60%;
+    width:60%;
+    padding:2px;
+ 
+   
+    box-shadow:1px 1px 8px rgba(198, 207, 33, 0.065);
+   } 
+ 
+
+
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+  
+}
